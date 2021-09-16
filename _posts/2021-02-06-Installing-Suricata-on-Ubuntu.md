@@ -12,20 +12,20 @@ categories: suricata
 ---
 According to Below Topology, i will be ;
 
-- 1. Install Suricata on Ubuntu 18.04 from source code
+1. Install Suricata on Ubuntu 18.04 from source code
 
-- 2. Capture First Packet with Suricata
+2. Capture First Packet with Suricata
      - Configure Suricata Config File and add two rule two test working suricata (Block inbound tomcat connecion and detect inbound telnet connection)
 
-- 3. Installing Emerging Threats Rules on Suricata
+3. Installing Emerging Threats Rules on Suricata
      - Attack From Kali (http user agent script scan)
      - detect this illegal activity with suricata
 
-- 4. Evaluating Suricata Output
+4. Evaluating Suricata Output
     - read eve.json logs with jq much more readable
     - query eve.jsons with jq to filter logs
 
-- 5. Custom HTTP Logging
+5. Custom HTTP Logging
    
     - enable http logging 
     - verify http logging
